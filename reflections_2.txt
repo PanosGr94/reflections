@@ -1,0 +1,8 @@
+*What happens when you initialize a repository? Why do you need to do it?
+
+	When you initialize a repository (with git "init") you can be offline and you are basically starting a git pointer to show that you want the history of the repository ( the folder which has git abilities and obvi its files) to be tracked. You need to do it because otherwise your files will never be tracked by git.
+	
+*How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area is the place where you "prepare" the things you want to commit to your git history. Thus you can add (with "add") or remove (with "reset") files from it, making sure you have a lot of control over your commits. The working directory is simply the place were you currently are. You have your files stored and are playing with them in the Working Directory. The Repository is the conjunction of files and folders which make up your git environment.
+	
