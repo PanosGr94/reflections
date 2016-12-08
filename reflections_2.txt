@@ -6,3 +6,16 @@
 
 	The staging area is the place where you "prepare" the things you want to commit to your git history. Thus you can add (with "add") or remove (with "reset") files from it, making sure you have a lot of control over your commits. The working directory is simply the place were you currently are. You have your files stored and are playing with them in the Working Directory. The Repository is the conjunction of files and folders which make up your git environment.
 	
+*How can you use the staging area to make sure you have one commit per logical change?
+
+	Well first of all the staging area helps to keep track of the things that are about to be committed. By using 
+	'git diff --staged' one can remember what has been already committed and using 'git diff' what has been changed and staged already can also be seen. Combining these 2 tools we can make sure we always have one commit per logical change!
+	
+*What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	If I need to make some feature change to an already working copy of the files I have checking-out between the newest version and the 'steady' one would create a fussy history of the repository. Branches help in that they become their own branch (lol) and separate their history from the masters one.
+	
+*How do the diagrams help you visualize the branch structure?
+
+	Diagrams are really useful for visualizing the timeline of commits and branch creation periods. They help you figure out in an easy-to-track manner which features/changes have been implemented and allow you to follow unreachable commits which logs would not be able to show!!
+	
