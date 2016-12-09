@@ -19,3 +19,6 @@
 
 	Diagrams are really useful for visualizing the timeline of commits and branch creation periods. They help you figure out in an easy-to-track manner which features/changes have been implemented and allow you to follow unreachable commits which logs would not be able to show!!
 	
+*What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	When we merge 2+ branches together we essentially create a new commit with the history (git log) and the changes (commits) of both the branches. It is obviously represented in the diagram as a conjunction of two tree branches as the two branches are eniologically connecting into one.
