@@ -22,3 +22,7 @@
 *What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 	When we merge 2+ branches together we essentially create a new commit with the history (git log) and the changes (commits) of both the branches. It is obviously represented in the diagram as a conjunction of two tree branches as the two branches are eniologically connecting into one.
+	
+*What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merging helps us compare and add code to a single file in a manner that doesn't tire us and is time-effective. When two files bond mutually and changes are saved it's actually pretty helpful to use automatic merging. However, there are cases in which only manual merging can be used to decide on the difference betwixt the code that we want to change and save and the one we want to discard or didn't make effective changes on. This is where the cons of manual merging come into play making it the only way we could save a file without corrupting it.
