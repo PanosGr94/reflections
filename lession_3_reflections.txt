@@ -11,3 +11,11 @@
 	Forks are clones but made only in Github. They don't need you to download any code and they do it automatically through their website. Also you're giving props to the creator by forking his project.
 	Clones are a copy of content and git log of any repository. They can happen locally or remotely through "git remote".
 	Branches, come on, everyone should know what these are by now.
+	
+*What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	You can check the differences of it and your local work without merging first. You can work offline to work on your own branch and merge them afterwards even if you are offline.
+	
+*How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Probably through emailing, cloud file sharing, maybe. It would definitely be harder to achieve, even if the learning curve for the Git system in conjunction with Github is a bit steep as soon as you overcome it a ton of possibilities are at your fingertips which make it so worth the trouble.
